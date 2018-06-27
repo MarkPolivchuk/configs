@@ -5,7 +5,7 @@
 			"import React from 'react';",
 			"import PropTypes from 'prop-types';",
 			"",
-			"const ${1:Component} = ({ children, className }) => {",
+			"const ${1:$TM_FILENAME_BASE} = ({ children, className }) => {",
 			"  const classNames = [",
 			"    'flex',",
 			"  ];",
@@ -27,11 +27,14 @@
 			"  className: null,",
 			"};",
 			"",
-			"export default ${1:Component};",
+			"export default ${1:$TM_FILENAME_BASE}",
 		],
 		"description": "A stateless component that wraps some children"
 	}
 }
+
+
+
 
 
 
