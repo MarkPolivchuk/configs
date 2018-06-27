@@ -1,0 +1,38 @@
+{
+	"Stateless Componenet Wrapper": {
+		"prefix": "rscw",
+		"body": [
+			"import React from 'react';",
+			"import PropTypes from 'prop-types';",
+			"",
+			"const ${1:Component} = ({ children, className }) => {",
+			"  const classNames = [",
+			"    'flex',",
+			"  ];",
+			"  if (className) { classNames.push(className); }",
+			"  return (",
+			"    <div className={classNames.join(' ')}>",
+			"      {children}",
+			"    </div>",
+			"  );",
+			"};",
+			"",
+			"Row.propTypes = {",
+			"  children: PropTypes.node,",
+			"  className: PropTypes.string,",
+			"};",
+			"",
+			"Row.defaultProps = {",
+			"  children: null,",
+			"  className: null,",
+			"};",
+			"",
+			"export default ${1:Component};",
+		],
+		"description": "A stateless component that wraps some children"
+	}
+}
+
+
+
+
