@@ -7,7 +7,7 @@
 			"",
 			"const ${1:$TM_FILENAME_BASE} = ({ children, className }) => {",
 			"  const classNames = [",
-			"    'flex',",
+			"    $0",
 			"  ];",
 			"  if (className) { classNames.push(className); }",
 			"  return (",
@@ -32,10 +32,5 @@
 		"description": "A stateless component that wraps some children"
 	}
 }
-
-
-
-
-
 
 
