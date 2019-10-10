@@ -1,0 +1,19 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Mark Polivchuk
+	email = mark.polivchuk@gmail.com
+[credential]
+	helper = osxkeychain
+[branch]
+	autosetuprebase = always
+[alias]
+	pullrm = !git pull --rebase origin master
+	pusho = !git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\"
+	pushf = !git push --force-with-lease
+	co = checkout
+	br = branch
+
