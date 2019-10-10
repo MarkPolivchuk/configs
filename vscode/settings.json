@@ -1,21 +1,56 @@
 {
-    "editor.fontFamily": "Inconsolata",
-    "editor.fontSize": 14,
-    "editor.tabSize": 2,
-    "problems.decorations.enabled": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "files.autoSave": "off",
-    "eslint.nodePath": "/Users/markpolivchuk/.nvm/versions/node/v6.11.0/lib/node_modules",
-    "eslint.autoFixOnSave": true,
-    "workbench.panel.location": "bottom",
-    "editor.minimap.enabled": false,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "workbench.colorTheme": "Monokai Dimmed",
-    "window.zoomLevel": 0,
-    "window.title": "${activeEditorMedium}",
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "extensions.ignoreRecommendations": false
+  "editor.fontFamily": "Inconsolata, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.rulers": [
+    100
+  ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.rebaseWhenSync": true,
+  "window.zoomLevel": 0,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnSave": true,
+  "editor.autoIndent": false,
+  "cSpell.userWords": [
+    "CHEQUING",
+    "Formik",
+    "keanu",
+    "overlimit",
+    "payables",
+    "postgres",
+    "prequalification",
+    "prequalifications",
+    "subdoc",
+    "subdocs"
+  ],
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "workbench.activityBar.visible": true,
+  "todo-tree.highlights.defaultHighlight": {
+    "background": "yellow",
+    "foreground": "black",
+    "opacity": "70"
+  },
+  "jest.pathToJest": "yarn test --"
 }
