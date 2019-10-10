@@ -5,7 +5,7 @@
 	required = true
 [user]
 	name = Mark Polivchuk
-	email = mark.polivchuk@gmail.com
+	email = mark@polivch.uk
 [credential]
 	helper = osxkeychain
 [branch]
